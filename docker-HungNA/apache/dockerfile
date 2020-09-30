@@ -1,5 +1,8 @@
 FROM httpd:2.4.33-alpine
 
+RUN apk update; \
+    apk upgrade;
+
 COPY my-httpd.conf conf/my-httpd.conf
 RUN echo "Include conf/my-httpd.conf" \
     >> /usr/local/apache2/conf/httpd.conf

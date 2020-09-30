@@ -6,3 +6,7 @@ RUN apk update; \
 COPY my-httpd.conf conf/my-httpd.conf
 RUN echo "Include conf/my-httpd.conf" \
     >> /usr/local/apache2/conf/httpd.conf
+
+COPY vhost.conf conf/vhost.conf
+RUN echo "Include conf/vhost.conf" \
+    >> /usr/local/apache2/conf/httpd.conf

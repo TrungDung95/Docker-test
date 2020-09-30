@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="88249159-18aa-4880-bca4-9467b02d4ae3" name="Default Changelist" comment="" />
+    <list default="true" id="88249159-18aa-4880-bca4-9467b02d4ae3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apache/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apache/my-httpd.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apache/vhost.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mysql/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-DungNT/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-HungNA/apache/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-HungNA/apache/my-httpd.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-HungNA/db/mariadb/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-HungNA/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-HungNA/document.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-HungNA/htdocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-HungNA/htdocs/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-HungNA/php/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/php5.6-fpm/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfile.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +50,16 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1hTtKqjwjDgK1Az5q30aQiANpWi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +70,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php/5.6-cli" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/database" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docker-HungNA" />
+      <recent name="$PROJECT_DIR$/docker-demo/mysql/data" />
+      <recent name="$PROJECT_DIR$/docker-demo/mysql" />
+      <recent name="$PROJECT_DIR$/docker-demo" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,11 +92,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600046848241</updated>
-      <workItem from="1600046849377" duration="230000" />
+      <workItem from="1600046849377" duration="4938000" />
+      <workItem from="1601102968929" duration="5073000" />
+      <workItem from="1601256656430" duration="39050000" />
+      <workItem from="1601365194986" duration="404000" />
+      <workItem from="1601428731167" duration="6273000" />
+      <workItem from="1601478543922" duration="1147000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="248" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601313499393">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="445" y="248" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.833@0.23.1440.833" timestamp="1601313499393" />
+    <state x="100" y="123" width="1240" height="633" key="dock-window-1" timestamp="1601103365665">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="100" y="123" width="1240" height="633" key="dock-window-1/0.23.1440.833@0.23.1440.833" timestamp="1601103365665" />
   </component>
 </project>

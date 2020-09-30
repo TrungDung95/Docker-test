@@ -1,0 +1,49 @@
+version: "3"
+
+services:
+
+  db:
+    build:
+      context: "../database/mysql"
+      dockerfile: Dockerfile
+    restart: always
+    container_name: db_mysql80
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    ports:
+      - 3310:3306
+    networks:
+      - default
+    volumes:
+      - /Users/mac/docker/database/mysql/data:/var/lib/mysql
+
+  php:
+    container_name: php5.6-fpm
+    build:
+      context: "../php/php5.6-fpm"
+      dockerfile: Dockerfile
+    networks:
+      - default
+    restart: always
+    volumes:
+      - /Users/mac/docker/htdocs:/var/www/html
+      - /Users/mac/docker/htdocs:/var/www/nguyenanhung.com
+
+  web:
+    build: "../apache/"
+    container_name: apacheDungNT
+    depends_on:
+      - db
+      - php
+    networks:
+      - default
+    restart: always
+    ports:
+      - 8081:8081
+      - 8082:8082
+    volumes:
+      - /Users/mac/docker/htdocs:/var/www/html
+      - /Users/mac/docker/htdocs:/var/www/nguyenanhung.com
+      - /Users/mac/docker/apache/my-httpd.conf:/usr/local/apache2/conf/my-httpd.conf
+      - /Users/mac/docker/apache/vhost.conf:/usr/local/apache2/conf/vhost.conf
+
